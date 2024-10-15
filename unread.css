@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+}
+
+.container {
+}
+header {
+  height: 630px;
+  background: linear-gradient(rgba(0, 0, 0, 0) -100%, #000000 100%),
+    url(https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg);
+  background-position-y: 43%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  width: 1600px;
+  height: 42px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bottomHeader {
+  background-color: black;
+  height: 327px;
+}
+.logo-input {
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  background: transparent;
+  border: transparent;
+}
+.nextPublishing {
+  width: 600px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nextPublishing p {
+  width: 160px;
+  height: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  opacity: 0.5;
+}
+.nextPublishing h3 {
+  width: 300px;
+}
+.timing {
+  background-color: #d1d1d199;
+  width: 300px;
+  height: 42px;
+  border-radius: 10%;
+}
+.timing h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
