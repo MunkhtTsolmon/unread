@@ -547,3 +547,36 @@ footer {
   color: white;
   padding-left: 30px;
 }
+.section3Container {
+  height: 1600px;
+}
+.section3 {
+  height: 1400px;
+  width: 1200px;
+  margin: auto;
+}
+.section3Lead {
+  height: 70px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.section3Btn {
+  width: 220px;
+  height: 62px;
+}
+.section3Content {
+  height: 1310px;
+  width: 1200px;
+}
+.section3ContentInside {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 1200px;
+  height: 635px;
+}
+.section3ContentPics {
+  width: 560px;
+  height: 630px;
+}
