@@ -233,6 +233,7 @@ main {
   margin: auto auto auto auto;
   overflow-x: hidden;
   padding-top: 30px;
+  mask-image: linear-gradient( to right, rgba(0,0,0,0), rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
 }
 .sliders1 {
   height: 430px;
@@ -582,41 +583,49 @@ main {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
 }
-.section3ContentPics img {
-  width: 100%;
-  height: 100%;
+.pics {
   border-radius: 10%;
   transition: 0.4s;
 }
-.section3ContentPics img:hover {
+.section3ContentPics .pics:hover {
   transform: translateY(-5px);
   transition: all ease 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .pic1 {
   grid-row-start: 1;
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 7;
+  background: url("section3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pic2 {
   grid-row-start: 5;
   grid-row-end: 7;
   grid-column-start: 1;
   grid-column-end: 4;
+  background: url("section3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pic3 {
   grid-row-start: 5;
   grid-row-end: 7;
   grid-column-start: 4;
   grid-column-end: 7;
+  background: url("section3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.section3ContentPics1 img {
+.pics {
   width: 100%;
   height: 100%;
   border-radius: 10%;
   transition: all ease 0.3s;
 }
-.section3ContentPics1 img:hover {
+.section3ContentPics1 .pics:hover {
   transform: translateY(-5px);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -633,24 +642,36 @@ main {
   grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 4;
+  background: url("section3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pic7 {
   grid-row-start: 1;
   grid-row-end: 4;
   grid-column-start: 4;
   grid-column-end: 7;
+  background: url("section3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pic5 {
   grid-row-start: 4;
   grid-row-end: 8;
   grid-column-start: 1;
   grid-column-end: 4;
+  background: url("section3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pic6 {
   grid-row-start: 4;
   grid-row-end: 8;
   grid-column-start: 4;
   grid-column-end: 7;
+  background: url("section3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .section3Content1 {
   margin-top: 10px;
