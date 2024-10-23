@@ -22,12 +22,53 @@ body {
     left: -300px;
   }
 }
-@media only screen and (min-width: 1700px) {
-  .nextPublishing {
+@media only screen and (max-width: 680px) {
+  #nextPublishing {
     display: none;
   }
+  #lead {
+    display: none;
+  }
+  #mainPic {
+    display: none;
+  }
+    #section2 {
+    display: block;
+  }
 }
-
+@media only screen and (max-width: 1240px) {
+  #nextPublishing {
+    display: none;
+  }
+  #lead {
+    display: none;
+  }
+  #mainPic {
+    display: none;
+  }
+#editorSlider {
+  mask: none;
+  width: 90%;
+}
+  #sliders {
+    animation-name: none;
+    left: auto;
+    position: static;
+  }
+ #section3ContentId {
+  display: block;
+ }
+ #section3ContentId1 {
+  display: block;
+  margin-top: 670px;
+ }
+ footer {
+  margin-top: 1170px;
+ }
+ #section3ContentPics {
+  width: 70vw;
+ }
+}
 .container {
   width: 100vw;
   box-sizing: border-box;
