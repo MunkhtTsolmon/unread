@@ -32,8 +32,23 @@ body {
   #mainPic {
     display: none;
   }
-    #section2 {
+  #section2 {
     display: block;
+  }
+  .articles {
+    margin: 60px auto;
+  }
+  #articlesContent {
+    width: 300px;
+  }
+  #articlesContentText {
+    font-size: 12px;
+  }
+  #author {
+    flex-direction: row;
+  }
+  #picsFooterText {
+    font-size: 1.5vw;
   }
 }
 @media only screen and (max-width: 1240px) {
@@ -46,29 +61,43 @@ body {
   #mainPic {
     display: none;
   }
-#editorSlider {
-  mask: none;
-  width: 90%;
-}
+  #editorSlider {
+    mask: none;
+    width: 90%;
+    overflow-x: scroll;
+    height: 430px;
+    gap: 20px;
+  }
   #sliders {
     animation-name: none;
     left: auto;
+    display: block;
     position: static;
   }
- #section3ContentId {
-  display: block;
- }
- #section3ContentId1 {
-  display: block;
-  margin-top: 670px;
- }
- footer {
-  margin-top: 1170px;
- }
- #section3ContentPics {
-  width: 70vw;
- }
+  #section3ContentId {
+    display: block;
+  }
+  #section3ContentId1 {
+    display: block;
+    margin-top: 670px;
+  }
+  footer {
+    margin-top: 1170px;
+  }
+  #section3ContentPics {
+    width: 70vw;
+  }
+  #articlesAuthorImg {
+    width: 70px;
+    height: 70px;
+  }
 }
+@media only screen and (max-width: 1560px) {
+  #articlesContentText {
+    font-size: 16px;
+  }
+}
+
 .container {
   width: 100vw;
   box-sizing: border-box;
@@ -509,7 +538,7 @@ main {
   text-transform: uppercase;
 }
 .section2 {
-  width: 54%;
+  width: 54vw;
   height: 1400px;
   margin: 300px auto;
   background-color: whitesmoke;
@@ -519,12 +548,12 @@ main {
   align-items: flex-start;
 }
 .articles {
-  width: 61%;
   height: 240px;
   position: relative;
+  width: 34vw;
 }
 .articlesAuthor {
-  width: 100%;
+  width: 34vw;
   height: 40px;
   position: absolute;
   transition: all ease 0.3s;
@@ -554,7 +583,7 @@ main {
 }
 .articlesContent {
   height: 185px;
-  width: 100%;
+  width: 34vw;
   background-color: white;
   box-shadow: 0px 0px 50px 4px #d1d1d14d;
   border-radius: 0px 20px 20px 20px;
@@ -594,8 +623,8 @@ main {
   color: #0078f6;
 }
 .articlesAuthorImg {
-  width: 19%;
-  height: 70%;
+  width: 140px;
+  height: 140px;
   margin: auto 50px;
 }
 .flex-end {
@@ -728,7 +757,7 @@ main {
   color: white;
 }
 .picsFooterText {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 19px;
   color: white;
